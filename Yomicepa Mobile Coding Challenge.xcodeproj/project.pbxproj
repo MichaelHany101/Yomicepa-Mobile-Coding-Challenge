@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0407EEA22C480F1D00564EF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407EEA12C480F1D00564EF5 /* AppDelegate.swift */; };
+		0407EEA42C480F1D00564EF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407EEA32C480F1D00564EF5 /* SceneDelegate.swift */; };
+		0407EEA62C480F1D00564EF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407EEA52C480F1D00564EF5 /* ViewController.swift */; };
+		0407EEA92C480F1D00564EF5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0407EEA82C480F1D00564EF5 /* Base */; };
+		0407EEAC2C480F1D00564EF5 /* Yomicepa_Mobile_Coding_Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0407EEAA2C480F1D00564EF5 /* Yomicepa_Mobile_Coding_Challenge.xcdatamodeld */; };
+		0407EEAE2C480F2000564EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0407EEAD2C480F2000564EF5 /* Assets.xcassets */; };
+		0407EEB12C480F2000564EF5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0407EEB02C480F2000564EF5 /* Base */; };
+		0407EEBC2C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407EEBB2C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeTests.swift */; };
+		0407EEC62C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407EEC52C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeUITests.swift */; };
+		0407EEC82C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407EEC72C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0407EEB82C480F2000564EF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0407EE962C480F1D00564EF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0407EE9D2C480F1D00564EF5;
+			remoteInfo = "Yomicepa Mobile Coding Challenge";
+		};
+		0407EEC22C480F2000564EF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0407EE962C480F1D00564EF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0407EE9D2C480F1D00564EF5;
+			remoteInfo = "Yomicepa Mobile Coding Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0407EE9E2C480F1D00564EF5 /* Yomicepa Mobile Coding Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yomicepa Mobile Coding Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0407EEA12C480F1D00564EF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0407EEA32C480F1D00564EF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0407EEA52C480F1D00564EF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0407EEA82C480F1D00564EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0407EEAB2C480F1D00564EF5 /* Yomicepa_Mobile_Coding_Challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Yomicepa_Mobile_Coding_Challenge.xcdatamodel; sourceTree = "<group>"; };
+		0407EEAD2C480F2000564EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0407EEB02C480F2000564EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0407EEB22C480F2000564EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0407EEB72C480F2000564EF5 /* Yomicepa Mobile Coding ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yomicepa Mobile Coding ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0407EEBB2C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yomicepa_Mobile_Coding_ChallengeTests.swift; sourceTree = "<group>"; };
+		0407EEC12C480F2000564EF5 /* Yomicepa Mobile Coding ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yomicepa Mobile Coding ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0407EEC52C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yomicepa_Mobile_Coding_ChallengeUITests.swift; sourceTree = "<group>"; };
+		0407EEC72C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yomicepa_Mobile_Coding_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0407EE9B2C480F1D00564EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0407EEB42C480F2000564EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0407EEBE2C480F2000564EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0407EE952C480F1D00564EF5 = {
+			isa = PBXGroup;
+			children = (
+				0407EEA02C480F1D00564EF5 /* Yomicepa Mobile Coding Challenge */,
+				0407EEBA2C480F2000564EF5 /* Yomicepa Mobile Coding ChallengeTests */,
+				0407EEC42C480F2000564EF5 /* Yomicepa Mobile Coding ChallengeUITests */,
+				0407EE9F2C480F1D00564EF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0407EE9F2C480F1D00564EF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0407EE9E2C480F1D00564EF5 /* Yomicepa Mobile Coding Challenge.app */,
+				0407EEB72C480F2000564EF5 /* Yomicepa Mobile Coding ChallengeTests.xctest */,
+				0407EEC12C480F2000564EF5 /* Yomicepa Mobile Coding ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0407EEA02C480F1D00564EF5 /* Yomicepa Mobile Coding Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				0407EEA12C480F1D00564EF5 /* AppDelegate.swift */,
+				0407EEA32C480F1D00564EF5 /* SceneDelegate.swift */,
+				0407EEA52C480F1D00564EF5 /* ViewController.swift */,
+				0407EEA72C480F1D00564EF5 /* Main.storyboard */,
+				0407EEAD2C480F2000564EF5 /* Assets.xcassets */,
+				0407EEAF2C480F2000564EF5 /* LaunchScreen.storyboard */,
+				0407EEB22C480F2000564EF5 /* Info.plist */,
+				0407EEAA2C480F1D00564EF5 /* Yomicepa_Mobile_Coding_Challenge.xcdatamodeld */,
+			);
+			path = "Yomicepa Mobile Coding Challenge";
+			sourceTree = "<group>";
+		};
+		0407EEBA2C480F2000564EF5 /* Yomicepa Mobile Coding ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0407EEBB2C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeTests.swift */,
+			);
+			path = "Yomicepa Mobile Coding ChallengeTests";
+			sourceTree = "<group>";
+		};
+		0407EEC42C480F2000564EF5 /* Yomicepa Mobile Coding ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0407EEC52C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeUITests.swift */,
+				0407EEC72C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeUITestsLaunchTests.swift */,
+			);
+			path = "Yomicepa Mobile Coding ChallengeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0407EE9D2C480F1D00564EF5 /* Yomicepa Mobile Coding Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0407EECB2C480F2000564EF5 /* Build configuration list for PBXNativeTarget "Yomicepa Mobile Coding Challenge" */;
+			buildPhases = (
+				0407EE9A2C480F1D00564EF5 /* Sources */,
+				0407EE9B2C480F1D00564EF5 /* Frameworks */,
+				0407EE9C2C480F1D00564EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yomicepa Mobile Coding Challenge";
+			productName = "Yomicepa Mobile Coding Challenge";
+			productReference = 0407EE9E2C480F1D00564EF5 /* Yomicepa Mobile Coding Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0407EEB62C480F2000564EF5 /* Yomicepa Mobile Coding ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0407EECE2C480F2000564EF5 /* Build configuration list for PBXNativeTarget "Yomicepa Mobile Coding ChallengeTests" */;
+			buildPhases = (
+				0407EEB32C480F2000564EF5 /* Sources */,
+				0407EEB42C480F2000564EF5 /* Frameworks */,
+				0407EEB52C480F2000564EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0407EEB92C480F2000564EF5 /* PBXTargetDependency */,
+			);
+			name = "Yomicepa Mobile Coding ChallengeTests";
+			productName = "Yomicepa Mobile Coding ChallengeTests";
+			productReference = 0407EEB72C480F2000564EF5 /* Yomicepa Mobile Coding ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0407EEC02C480F2000564EF5 /* Yomicepa Mobile Coding ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0407EED12C480F2000564EF5 /* Build configuration list for PBXNativeTarget "Yomicepa Mobile Coding ChallengeUITests" */;
+			buildPhases = (
+				0407EEBD2C480F2000564EF5 /* Sources */,
+				0407EEBE2C480F2000564EF5 /* Frameworks */,
+				0407EEBF2C480F2000564EF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0407EEC32C480F2000564EF5 /* PBXTargetDependency */,
+			);
+			name = "Yomicepa Mobile Coding ChallengeUITests";
+			productName = "Yomicepa Mobile Coding ChallengeUITests";
+			productReference = 0407EEC12C480F2000564EF5 /* Yomicepa Mobile Coding ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0407EE962C480F1D00564EF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					0407EE9D2C480F1D00564EF5 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					0407EEB62C480F2000564EF5 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 0407EE9D2C480F1D00564EF5;
+					};
+					0407EEC02C480F2000564EF5 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 0407EE9D2C480F1D00564EF5;
+					};
+				};
+			};
+			buildConfigurationList = 0407EE992C480F1D00564EF5 /* Build configuration list for PBXProject "Yomicepa Mobile Coding Challenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0407EE952C480F1D00564EF5;
+			productRefGroup = 0407EE9F2C480F1D00564EF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0407EE9D2C480F1D00564EF5 /* Yomicepa Mobile Coding Challenge */,
+				0407EEB62C480F2000564EF5 /* Yomicepa Mobile Coding ChallengeTests */,
+				0407EEC02C480F2000564EF5 /* Yomicepa Mobile Coding ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0407EE9C2C480F1D00564EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0407EEAE2C480F2000564EF5 /* Assets.xcassets in Resources */,
+				0407EEB12C480F2000564EF5 /* Base in Resources */,
+				0407EEA92C480F1D00564EF5 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0407EEB52C480F2000564EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0407EEBF2C480F2000564EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0407EE9A2C480F1D00564EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0407EEAC2C480F1D00564EF5 /* Yomicepa_Mobile_Coding_Challenge.xcdatamodeld in Sources */,
+				0407EEA62C480F1D00564EF5 /* ViewController.swift in Sources */,
+				0407EEA22C480F1D00564EF5 /* AppDelegate.swift in Sources */,
+				0407EEA42C480F1D00564EF5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0407EEB32C480F2000564EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0407EEBC2C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0407EEBD2C480F2000564EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0407EEC62C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeUITests.swift in Sources */,
+				0407EEC82C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0407EEB92C480F2000564EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0407EE9D2C480F1D00564EF5 /* Yomicepa Mobile Coding Challenge */;
+			targetProxy = 0407EEB82C480F2000564EF5 /* PBXContainerItemProxy */;
+		};
+		0407EEC32C480F2000564EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0407EE9D2C480F1D00564EF5 /* Yomicepa Mobile Coding Challenge */;
+			targetProxy = 0407EEC22C480F2000564EF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0407EEA72C480F1D00564EF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0407EEA82C480F1D00564EF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0407EEAF2C480F2000564EF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0407EEB02C480F2000564EF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0407EEC92C480F2000564EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0407EECA2C480F2000564EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0407EECC2C480F2000564EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yomicepa Mobile Coding Challenge/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MyProjects.Yomicepa-Mobile-Coding-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0407EECD2C480F2000564EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yomicepa Mobile Coding Challenge/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MyProjects.Yomicepa-Mobile-Coding-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0407EECF2C480F2000564EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MyProjects.Yomicepa-Mobile-Coding-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yomicepa Mobile Coding Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yomicepa Mobile Coding Challenge";
+			};
+			name = Debug;
+		};
+		0407EED02C480F2000564EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MyProjects.Yomicepa-Mobile-Coding-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yomicepa Mobile Coding Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yomicepa Mobile Coding Challenge";
+			};
+			name = Release;
+		};
+		0407EED22C480F2000564EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MyProjects.Yomicepa-Mobile-Coding-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yomicepa Mobile Coding Challenge";
+			};
+			name = Debug;
+		};
+		0407EED32C480F2000564EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MyProjects.Yomicepa-Mobile-Coding-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yomicepa Mobile Coding Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0407EE992C480F1D00564EF5 /* Build configuration list for PBXProject "Yomicepa Mobile Coding Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0407EEC92C480F2000564EF5 /* Debug */,
+				0407EECA2C480F2000564EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0407EECB2C480F2000564EF5 /* Build configuration list for PBXNativeTarget "Yomicepa Mobile Coding Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0407EECC2C480F2000564EF5 /* Debug */,
+				0407EECD2C480F2000564EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0407EECE2C480F2000564EF5 /* Build configuration list for PBXNativeTarget "Yomicepa Mobile Coding ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0407EECF2C480F2000564EF5 /* Debug */,
+				0407EED02C480F2000564EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0407EED12C480F2000564EF5 /* Build configuration list for PBXNativeTarget "Yomicepa Mobile Coding ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0407EED22C480F2000564EF5 /* Debug */,
+				0407EED32C480F2000564EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0407EEAA2C480F1D00564EF5 /* Yomicepa_Mobile_Coding_Challenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0407EEAB2C480F1D00564EF5 /* Yomicepa_Mobile_Coding_Challenge.xcdatamodel */,
+			);
+			currentVersion = 0407EEAB2C480F1D00564EF5 /* Yomicepa_Mobile_Coding_Challenge.xcdatamodel */;
+			path = Yomicepa_Mobile_Coding_Challenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0407EE962C480F1D00564EF5 /* Project object */;
+}
