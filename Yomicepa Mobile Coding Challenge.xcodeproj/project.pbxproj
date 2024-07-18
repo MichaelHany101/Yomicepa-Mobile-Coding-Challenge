@@ -17,6 +17,27 @@
 		0407EEBC2C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407EEBB2C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeTests.swift */; };
 		0407EEC62C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407EEC52C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeUITests.swift */; };
 		0407EEC82C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407EEC72C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeUITestsLaunchTests.swift */; };
+		0407EED52C48268F00564EF5 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407EED42C48268F00564EF5 /* EndPoints.swift */; };
+		0407EED72C48271600564EF5 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407EED62C48271600564EF5 /* NetworkService.swift */; };
+		0407EED92C4828C400564EF5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407EED82C4828C400564EF5 /* ViewModel.swift */; };
+		0407EEDB2C482DB600564EF5 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407EEDA2C482DB600564EF5 /* Response.swift */; };
+		0407EEDD2C48390D00564EF5 /* Pharmacies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407EEDC2C48390D00564EF5 /* Pharmacies.swift */; };
+		041CF9512C487FF90038B217 /* PharmacyInfoView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041CF9502C487FF90038B217 /* PharmacyInfoView.storyboard */; };
+		041CF9532C4880180038B217 /* PharmacyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CF9522C4880180038B217 /* PharmacyInfoViewController.swift */; };
+		041CF9582C48FF580038B217 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CF9572C48FF580038B217 /* User.swift */; };
+		041CF95C2C49012C0038B217 /* PharmacyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CF95B2C49012C0038B217 /* PharmacyInfo.swift */; };
+		041CF95E2C4901FC0038B217 /* PharmacyDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CF95D2C4901FC0038B217 /* PharmacyDetails.swift */; };
+		041CF9622C4904870038B217 /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CF9612C4904870038B217 /* UserDetails.swift */; };
+		041CF9642C4904A20038B217 /* WholesalersLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CF9632C4904A20038B217 /* WholesalersLink.swift */; };
+		041CF9662C4905990038B217 /* PharmacyAddressInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CF9652C4905990038B217 /* PharmacyAddressInfo.swift */; };
+		041CF9682C49060D0038B217 /* PharmacyContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CF9672C49060D0038B217 /* PharmacyContactInfo.swift */; };
+		044069372C4915A300EE9587 /* PharmaciesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044069352C4915A300EE9587 /* PharmaciesListTableViewController.swift */; };
+		044069382C4915A300EE9587 /* PharmaciesListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044069362C4915A300EE9587 /* PharmaciesListTableViewController.xib */; };
+		0440693B2C491C8300EE9587 /* PharmaciesListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044069392C491C8300EE9587 /* PharmaciesListTableViewCell.swift */; };
+		0440693C2C491C8300EE9587 /* PharmaciesListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0440693A2C491C8300EE9587 /* PharmaciesListTableViewCell.xib */; };
+		54D40193AF159DE1F4414F65 /* Pods_Yomicepa_Mobile_Coding_Challenge_Yomicepa_Mobile_Coding_ChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379B924C102D15B35DC86E55 /* Pods_Yomicepa_Mobile_Coding_Challenge_Yomicepa_Mobile_Coding_ChallengeUITests.framework */; };
+		D21012030170CEA634041A4A /* Pods_Yomicepa_Mobile_Coding_ChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362333ED75D098E681C52052 /* Pods_Yomicepa_Mobile_Coding_ChallengeTests.framework */; };
+		F33079484C83071439D549F2 /* Pods_Yomicepa_Mobile_Coding_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE2B5AED9B1D11172573B10 /* Pods_Yomicepa_Mobile_Coding_Challenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +72,33 @@
 		0407EEC12C480F2000564EF5 /* Yomicepa Mobile Coding ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yomicepa Mobile Coding ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0407EEC52C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yomicepa_Mobile_Coding_ChallengeUITests.swift; sourceTree = "<group>"; };
 		0407EEC72C480F2000564EF5 /* Yomicepa_Mobile_Coding_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yomicepa_Mobile_Coding_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0407EED42C48268F00564EF5 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		0407EED62C48271600564EF5 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		0407EED82C4828C400564EF5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0407EEDA2C482DB600564EF5 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		0407EEDC2C48390D00564EF5 /* Pharmacies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pharmacies.swift; sourceTree = "<group>"; };
+		041CF9502C487FF90038B217 /* PharmacyInfoView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PharmacyInfoView.storyboard; sourceTree = "<group>"; };
+		041CF9522C4880180038B217 /* PharmacyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyInfoViewController.swift; sourceTree = "<group>"; };
+		041CF9572C48FF580038B217 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		041CF95B2C49012C0038B217 /* PharmacyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyInfo.swift; sourceTree = "<group>"; };
+		041CF95D2C4901FC0038B217 /* PharmacyDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyDetails.swift; sourceTree = "<group>"; };
+		041CF9612C4904870038B217 /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		041CF9632C4904A20038B217 /* WholesalersLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WholesalersLink.swift; sourceTree = "<group>"; };
+		041CF9652C4905990038B217 /* PharmacyAddressInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyAddressInfo.swift; sourceTree = "<group>"; };
+		041CF9672C49060D0038B217 /* PharmacyContactInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyContactInfo.swift; sourceTree = "<group>"; };
+		044069352C4915A300EE9587 /* PharmaciesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmaciesListTableViewController.swift; sourceTree = "<group>"; };
+		044069362C4915A300EE9587 /* PharmaciesListTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PharmaciesListTableViewController.xib; sourceTree = "<group>"; };
+		044069392C491C8300EE9587 /* PharmaciesListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmaciesListTableViewCell.swift; sourceTree = "<group>"; };
+		0440693A2C491C8300EE9587 /* PharmaciesListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PharmaciesListTableViewCell.xib; sourceTree = "<group>"; };
+		2312FD179B6E54CB5988BC4B /* Pods-Yomicepa Mobile Coding ChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yomicepa Mobile Coding ChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-Yomicepa Mobile Coding ChallengeTests/Pods-Yomicepa Mobile Coding ChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		306D3CB4D42AC10CA27EE7C6 /* Pods-Yomicepa Mobile Coding Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yomicepa Mobile Coding Challenge.release.xcconfig"; path = "Target Support Files/Pods-Yomicepa Mobile Coding Challenge/Pods-Yomicepa Mobile Coding Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		362333ED75D098E681C52052 /* Pods_Yomicepa_Mobile_Coding_ChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yomicepa_Mobile_Coding_ChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		379B924C102D15B35DC86E55 /* Pods_Yomicepa_Mobile_Coding_Challenge_Yomicepa_Mobile_Coding_ChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yomicepa_Mobile_Coding_Challenge_Yomicepa_Mobile_Coding_ChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE2B5AED9B1D11172573B10 /* Pods_Yomicepa_Mobile_Coding_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yomicepa_Mobile_Coding_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		680A12E79C07E704BAC9331A /* Pods-Yomicepa Mobile Coding Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yomicepa Mobile Coding Challenge.debug.xcconfig"; path = "Target Support Files/Pods-Yomicepa Mobile Coding Challenge/Pods-Yomicepa Mobile Coding Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		A2D5DD1B71E82F879B71B25C /* Pods-Yomicepa Mobile Coding ChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yomicepa Mobile Coding ChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-Yomicepa Mobile Coding ChallengeTests/Pods-Yomicepa Mobile Coding ChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF9F6969B3C01D9C8CDA0155 /* Pods-Yomicepa Mobile Coding Challenge-Yomicepa Mobile Coding ChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yomicepa Mobile Coding Challenge-Yomicepa Mobile Coding ChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Yomicepa Mobile Coding Challenge-Yomicepa Mobile Coding ChallengeUITests/Pods-Yomicepa Mobile Coding Challenge-Yomicepa Mobile Coding ChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD19EE5122E4110B9FEDE536 /* Pods-Yomicepa Mobile Coding Challenge-Yomicepa Mobile Coding ChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yomicepa Mobile Coding Challenge-Yomicepa Mobile Coding ChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-Yomicepa Mobile Coding Challenge-Yomicepa Mobile Coding ChallengeUITests/Pods-Yomicepa Mobile Coding Challenge-Yomicepa Mobile Coding ChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F33079484C83071439D549F2 /* Pods_Yomicepa_Mobile_Coding_Challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D21012030170CEA634041A4A /* Pods_Yomicepa_Mobile_Coding_ChallengeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54D40193AF159DE1F4414F65 /* Pods_Yomicepa_Mobile_Coding_Challenge_Yomicepa_Mobile_Coding_ChallengeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +136,8 @@
 				0407EEBA2C480F2000564EF5 /* Yomicepa Mobile Coding ChallengeTests */,
 				0407EEC42C480F2000564EF5 /* Yomicepa Mobile Coding ChallengeUITests */,
 				0407EE9F2C480F1D00564EF5 /* Products */,
+				F94CC4477837307D4F17CC7A /* Frameworks */,
+				F035764220C36353B9C8309F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +154,12 @@
 		0407EEA02C480F1D00564EF5 /* Yomicepa Mobile Coding Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				041CF9432C4853C80038B217 /* Model */,
+				041CF9452C4854030038B217 /* NetworkService */,
+				041CF9442C4853D50038B217 /* ViewModel */,
+				041CF9462C4854370038B217 /* View */,
 				0407EEA12C480F1D00564EF5 /* AppDelegate.swift */,
 				0407EEA32C480F1D00564EF5 /* SceneDelegate.swift */,
-				0407EEA52C480F1D00564EF5 /* ViewController.swift */,
-				0407EEA72C480F1D00564EF5 /* Main.storyboard */,
 				0407EEAD2C480F2000564EF5 /* Assets.xcassets */,
 				0407EEAF2C480F2000564EF5 /* LaunchScreen.storyboard */,
 				0407EEB22C480F2000564EF5 /* Info.plist */,
@@ -130,6 +185,125 @@
 			path = "Yomicepa Mobile Coding ChallengeUITests";
 			sourceTree = "<group>";
 		};
+		041CF9432C4853C80038B217 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				041CF95A2C48FFE40038B217 /* PharmacyInfo */,
+				041CF9592C48FF6C0038B217 /* PharmaciesList */,
+				041CF9562C48FF290038B217 /* LogIn */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		041CF9442C4853D50038B217 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0407EED82C4828C400564EF5 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		041CF9452C4854030038B217 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				0407EED62C48271600564EF5 /* NetworkService.swift */,
+				0407EED42C48268F00564EF5 /* EndPoints.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		041CF9462C4854370038B217 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				041CF94F2C487FC40038B217 /* PharmacyInfo */,
+				041CF9482C4854E70038B217 /* PharmaciesTable */,
+				041CF9472C4854400038B217 /* LogIn */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		041CF9472C4854400038B217 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				0407EEA72C480F1D00564EF5 /* Main.storyboard */,
+				0407EEA52C480F1D00564EF5 /* ViewController.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		041CF9482C4854E70038B217 /* PharmaciesTable */ = {
+			isa = PBXGroup;
+			children = (
+				044069352C4915A300EE9587 /* PharmaciesListTableViewController.swift */,
+				044069362C4915A300EE9587 /* PharmaciesListTableViewController.xib */,
+				044069392C491C8300EE9587 /* PharmaciesListTableViewCell.swift */,
+				0440693A2C491C8300EE9587 /* PharmaciesListTableViewCell.xib */,
+			);
+			path = PharmaciesTable;
+			sourceTree = "<group>";
+		};
+		041CF94F2C487FC40038B217 /* PharmacyInfo */ = {
+			isa = PBXGroup;
+			children = (
+				041CF9502C487FF90038B217 /* PharmacyInfoView.storyboard */,
+				041CF9522C4880180038B217 /* PharmacyInfoViewController.swift */,
+			);
+			path = PharmacyInfo;
+			sourceTree = "<group>";
+		};
+		041CF9562C48FF290038B217 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				0407EEDA2C482DB600564EF5 /* Response.swift */,
+				041CF9572C48FF580038B217 /* User.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		041CF9592C48FF6C0038B217 /* PharmaciesList */ = {
+			isa = PBXGroup;
+			children = (
+				0407EEDC2C48390D00564EF5 /* Pharmacies.swift */,
+			);
+			path = PharmaciesList;
+			sourceTree = "<group>";
+		};
+		041CF95A2C48FFE40038B217 /* PharmacyInfo */ = {
+			isa = PBXGroup;
+			children = (
+				041CF95B2C49012C0038B217 /* PharmacyInfo.swift */,
+				041CF95D2C4901FC0038B217 /* PharmacyDetails.swift */,
+				041CF9612C4904870038B217 /* UserDetails.swift */,
+				041CF9632C4904A20038B217 /* WholesalersLink.swift */,
+				041CF9652C4905990038B217 /* PharmacyAddressInfo.swift */,
+				041CF9672C49060D0038B217 /* PharmacyContactInfo.swift */,
+			);
+			path = PharmacyInfo;
+			sourceTree = "<group>";
+		};
+		F035764220C36353B9C8309F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				680A12E79C07E704BAC9331A /* Pods-Yomicepa Mobile Coding Challenge.debug.xcconfig */,
+				306D3CB4D42AC10CA27EE7C6 /* Pods-Yomicepa Mobile Coding Challenge.release.xcconfig */,
+				CF9F6969B3C01D9C8CDA0155 /* Pods-Yomicepa Mobile Coding Challenge-Yomicepa Mobile Coding ChallengeUITests.debug.xcconfig */,
+				DD19EE5122E4110B9FEDE536 /* Pods-Yomicepa Mobile Coding Challenge-Yomicepa Mobile Coding ChallengeUITests.release.xcconfig */,
+				A2D5DD1B71E82F879B71B25C /* Pods-Yomicepa Mobile Coding ChallengeTests.debug.xcconfig */,
+				2312FD179B6E54CB5988BC4B /* Pods-Yomicepa Mobile Coding ChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F94CC4477837307D4F17CC7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DE2B5AED9B1D11172573B10 /* Pods_Yomicepa_Mobile_Coding_Challenge.framework */,
+				379B924C102D15B35DC86E55 /* Pods_Yomicepa_Mobile_Coding_Challenge_Yomicepa_Mobile_Coding_ChallengeUITests.framework */,
+				362333ED75D098E681C52052 /* Pods_Yomicepa_Mobile_Coding_ChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +311,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0407EECB2C480F2000564EF5 /* Build configuration list for PBXNativeTarget "Yomicepa Mobile Coding Challenge" */;
 			buildPhases = (
+				0C29117A1243B3A8D51ABBC5 /* [CP] Check Pods Manifest.lock */,
 				0407EE9A2C480F1D00564EF5 /* Sources */,
 				0407EE9B2C480F1D00564EF5 /* Frameworks */,
 				0407EE9C2C480F1D00564EF5 /* Resources */,
@@ -154,6 +329,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0407EECE2C480F2000564EF5 /* Build configuration list for PBXNativeTarget "Yomicepa Mobile Coding ChallengeTests" */;
 			buildPhases = (
+				63DFA194F95307D72E3FF091 /* [CP] Check Pods Manifest.lock */,
 				0407EEB32C480F2000564EF5 /* Sources */,
 				0407EEB42C480F2000564EF5 /* Frameworks */,
 				0407EEB52C480F2000564EF5 /* Resources */,
@@ -172,6 +348,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0407EED12C480F2000564EF5 /* Build configuration list for PBXNativeTarget "Yomicepa Mobile Coding ChallengeUITests" */;
 			buildPhases = (
+				63D71E70A68CE967243D49E4 /* [CP] Check Pods Manifest.lock */,
 				0407EEBD2C480F2000564EF5 /* Sources */,
 				0407EEBE2C480F2000564EF5 /* Frameworks */,
 				0407EEBF2C480F2000564EF5 /* Resources */,
@@ -235,8 +412,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0407EEAE2C480F2000564EF5 /* Assets.xcassets in Resources */,
+				044069382C4915A300EE9587 /* PharmaciesListTableViewController.xib in Resources */,
 				0407EEB12C480F2000564EF5 /* Base in Resources */,
 				0407EEA92C480F1D00564EF5 /* Base in Resources */,
+				041CF9512C487FF90038B217 /* PharmacyInfoView.storyboard in Resources */,
+				0440693C2C491C8300EE9587 /* PharmaciesListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +436,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C29117A1243B3A8D51ABBC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yomicepa Mobile Coding Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63D71E70A68CE967243D49E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yomicepa Mobile Coding Challenge-Yomicepa Mobile Coding ChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63DFA194F95307D72E3FF091 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yomicepa Mobile Coding ChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0407EE9A2C480F1D00564EF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041CF95C2C49012C0038B217 /* PharmacyInfo.swift in Sources */,
+				041CF9622C4904870038B217 /* UserDetails.swift in Sources */,
+				041CF9582C48FF580038B217 /* User.swift in Sources */,
+				041CF9682C49060D0038B217 /* PharmacyContactInfo.swift in Sources */,
 				0407EEAC2C480F1D00564EF5 /* Yomicepa_Mobile_Coding_Challenge.xcdatamodeld in Sources */,
+				044069372C4915A300EE9587 /* PharmaciesListTableViewController.swift in Sources */,
+				0407EED52C48268F00564EF5 /* EndPoints.swift in Sources */,
+				041CF9532C4880180038B217 /* PharmacyInfoViewController.swift in Sources */,
 				0407EEA62C480F1D00564EF5 /* ViewController.swift in Sources */,
 				0407EEA22C480F1D00564EF5 /* AppDelegate.swift in Sources */,
+				0440693B2C491C8300EE9587 /* PharmaciesListTableViewCell.swift in Sources */,
+				041CF9642C4904A20038B217 /* WholesalersLink.swift in Sources */,
+				0407EED72C48271600564EF5 /* NetworkService.swift in Sources */,
 				0407EEA42C480F1D00564EF5 /* SceneDelegate.swift in Sources */,
+				041CF95E2C4901FC0038B217 /* PharmacyDetails.swift in Sources */,
+				0407EEDD2C48390D00564EF5 /* Pharmacies.swift in Sources */,
+				041CF9662C4905990038B217 /* PharmacyAddressInfo.swift in Sources */,
+				0407EED92C4828C400564EF5 /* ViewModel.swift in Sources */,
+				0407EEDB2C482DB600564EF5 /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,11 +705,13 @@
 		};
 		0407EECC2C480F2000564EF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 680A12E79C07E704BAC9331A /* Pods-Yomicepa Mobile Coding Challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Yomicepa Mobile Coding Challenge/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -468,11 +734,13 @@
 		};
 		0407EECD2C480F2000564EF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 306D3CB4D42AC10CA27EE7C6 /* Pods-Yomicepa Mobile Coding Challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Yomicepa Mobile Coding Challenge/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -495,6 +763,7 @@
 		};
 		0407EECF2C480F2000564EF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2D5DD1B71E82F879B71B25C /* Pods-Yomicepa Mobile Coding ChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +783,7 @@
 		};
 		0407EED02C480F2000564EF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2312FD179B6E54CB5988BC4B /* Pods-Yomicepa Mobile Coding ChallengeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +803,7 @@
 		};
 		0407EED22C480F2000564EF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF9F6969B3C01D9C8CDA0155 /* Pods-Yomicepa Mobile Coding Challenge-Yomicepa Mobile Coding ChallengeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +821,7 @@
 		};
 		0407EED32C480F2000564EF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD19EE5122E4110B9FEDE536 /* Pods-Yomicepa Mobile Coding Challenge-Yomicepa Mobile Coding ChallengeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

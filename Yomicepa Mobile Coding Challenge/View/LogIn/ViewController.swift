@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         viewModel.bindLogin = {
             if self.viewModel.logInVar {
                 DispatchQueue.main.async {
-                    let vc = PharmaciesViewController()
+                    let vc = PharmaciesListTableViewController()
                     vc.modalPresentationStyle = .fullScreen
                     self.present(vc, animated: true, completion: nil)
                 }

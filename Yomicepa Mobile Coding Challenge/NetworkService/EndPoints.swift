@@ -11,8 +11,8 @@ var base = "https://portal-test.rxmaxreturns.com/rxmax"
 
 var auth = "/auth"
 
-var pharmacies = "/pharmacies"
+var pharmaciesManagement = "/pharmacies/management"
 
-var pharmaciesManagement = "/\(pharmacies)/management"
+var pharmaciesBase = "/pharmacies"
 
-var pharmaciesFull = "/\(pharmacies)/{pharmacyId}/full"
+var pharmaciesFull = "/full"

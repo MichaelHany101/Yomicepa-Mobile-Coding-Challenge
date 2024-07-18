@@ -1,0 +1,6 @@
+framework module Pods_Yomicepa_Mobile_Coding_ChallengeTests {
+  umbrella header "Pods-Yomicepa Mobile Coding ChallengeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

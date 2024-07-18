@@ -9,6 +9,8 @@ import UIKit
 
 class PharmaciesListTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var pharmaciesName: UILabel!
+    @IBOutlet weak var pharmaciesReturn: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,4 +22,11 @@ class PharmaciesListTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    func setName(name : String) {
+        self.pharmaciesName.text = name
+    }
+    
+    func setReturn(returnString : String) {
+        self.pharmaciesReturn.text = returnString
+    }
 }

@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct PharmacyInfo : Decodable {
+    var pharmacy: PharmacyDetails
+    var pharmacyCompanyAddressInfo: PharmacyAddressInfo
+    var pharmacyMailingAddressInfo: PharmacyAddressInfo
+    var pharmacyContactInfo: PharmacyContactInfo
+    var promoCode: String
+}
