@@ -45,6 +45,9 @@
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
                                     <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="logInButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ysJ-nO-wIA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -64,6 +67,10 @@
                             <constraint firstItem="xP4-oM-ny1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wYx-fq-m8D"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="AKF-JC-Mpw" id="6Ed-zr-sLA"/>
+                        <outlet property="usernameTextField" destination="rta-oN-QqE" id="POV-6M-Imb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
